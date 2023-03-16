@@ -1,0 +1,9 @@
+.dealsGrid {
+  color: white;
+}
+.dealsGrid .dealinout {
+  background-color: 0;
+}
+.dealsGrid .dealinout img {
+  width: 30px;
+}

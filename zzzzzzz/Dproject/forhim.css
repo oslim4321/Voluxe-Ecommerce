@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    height: 100vh;
+  }
+  .heroPageLove img {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(0deg, rgba(1, 12, 51, 0.5));
+  }
+  .heroPageLove {
+    position: relative;
+  }
+  .heroPageLove h3,
+  p {
+    position: absolute;
+  }
+  .heroPageLove h3 {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+  .heroPageLove p {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  section {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .card {
+      border: 1px solid;
+      border-style: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+      margin: auto;
+      
+    }
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+  img {
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+  }
+  .heroPage .valentineForHim a p {
+    width: 285px;
+    height: 27px;
+    background-color: #010c33;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    padding: 7px 0px 0px;
+    font-size: 12px;
+  }
+  
+  .heroPage .valentineForHim {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-gap: 20px;
+    grid-row-gap: 60px;
+  }
+.heroPage .valentineForHim a:hover{
+    transform: scale(.99);
+}

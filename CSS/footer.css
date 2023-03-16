@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+footer {
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  background-color: #010C33;
+  color: white;
+}
+footer .content {
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+footer .connect h6 {
+  color: #FFB020;
+}
+footer .connect .icons img:hover {
+  padding: 3px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+footer .connect .store img:hover {
+  border-radius: 5px;
+  background-color: #FFB020;
+  padding: 5px;
+}
+footer .connect a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 25px;
+}
+footer .connect span:hover {
+  color: white;
+  text-decoration: none;
+}
+footer .connect a:hover {
+  color: #FFB020;
+  text-decoration: underline;
+}
+footer .connect li {
+  list-style: none;
+}

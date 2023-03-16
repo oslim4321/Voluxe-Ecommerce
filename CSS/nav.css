@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+nav {
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #010C33;
+  color: white;
+  font-size: 20px;
+}
+nav .mainNav {
+  width: 80%;
+}
+nav i {
+  font-size: 18px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: #FFB020;
+}
+nav .dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+}
+nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+nav .dropdown-content {
+  font-size: 14px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+nav .dropdown-content a:hover {
+  background-color: #96d0ff;
+  color: white;
+}
+nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+nav .dropdown:hover .dropbtn {
+  color: black;
+  background-color: #829EFF;
+  border-radius: 20px;
+}
+nav .searchBar input {
+  border: none;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+nav .searchBar .imgg {
+  border: none;
+  background-color: white;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+nav .searchBar input::-moz-placeholder {
+  padding: 10px;
+  font-size: 13px;
+}
+nav .searchBar input::placeholder {
+  padding: 10px;
+  font-size: 13px;
+}
+nav .searchBar input:focus {
+  outline: none;
+  padding: 20px;
+}
+nav .cartSection {
+  display: flex;
+  display: none;
+}
+nav .cartSection .order {
+  line-height: 5px;
+}
+nav .cartSection .order p {
+  font-size: 12px;
+}
+nav .cartSection .order .dollar {
+  color: #FFB020;
+}
+nav .cartSection .left {
+  display: flex;
+  display: none;
+}
+@media (min-width: 961px) {
+  nav .left {
+    display: inline-flex !important;
+  }
+}
+@media (min-width: 961px) {
+  nav .cartSection {
+    display: inline-flex !important;
+  }
+}
+
+@media (max-width: 947px) {
+  .listdropdown {
+    display: block !important;
+  }
+}
+@media (min-width: 947px) {
+  .listdropdown {
+    display: none !important;
+  }
+}
+.listdropdown .dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.listdropdown .dropbtn:hover, .listdropdown .dropbtn:focus {
+  background-color: #2980B9;
+}
+.listdropdown .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.listdropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.listdropdown .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.listdropdown .dropdown a:hover {
+  background-color: #ddd;
+}
+.listdropdown .show {
+  display: block;
+}
+
+.nav2 {
+  background-color: #021455;
+}
+.nav2 marquee p {
+  color: #FFB020;
+  font-size: 18px;
+}

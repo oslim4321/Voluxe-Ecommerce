@@ -1,0 +1,71 @@
+
+.gaming {
+    background-color: #0533D4;
+  }
+  .gaming h6 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  
+
+  
+  .gamingSection {
+    margin: 0 auto;
+    justify-content: center;
+    width: 88%;
+    height: 100%;
+    align-items: center;
+  }
+  .gamingSection .grid {
+    width: 98%;
+    margin: 0 auto;
+    line-height: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .gamingSection .grid p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .gamingSection .grid h6 {
+    font-size: 20px;
+    width: 50%;
+  }
+  .gamingSection .grid img {
+    width: 100%;
+  }
+  .gamingSection .grid button {
+    background-color: #FDC500;
+    border: none;
+    color: white;
+  }
+  .gamingSection .grid button:hover {
+    background-color: #0533D4;
+    transition: 1s ease;
+    border: none;
+  }
+  .gamingSection .grid .products:hover {
+    border: 2px solid #FDC500;
+    border-radius: 10px;
+  }
+  .gamingSection .grid .discount {
+    margin: 0 auto;
+    background-color: #010C33;
+    color: white;
+    text-align: center;
+  }
+  .gamingSection .grid .discount .strike {
+    font-size: 18px;
+    color: #7b7b7b;
+  }
+  .gamingSection .grid .discount:hover {
+    background-color: #FDC500;
+  }
+  .gamingSection .grid .discount:hover p {
+    color: #0533D4;
+  }
+  
